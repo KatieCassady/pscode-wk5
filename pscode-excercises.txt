@@ -1,0 +1,29 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+fn{a=1, b=2
+   if a+b=3, say true
+   ifelse, say false
+}
+
+// Exercise 2: Check if a Number is Even or Odd
+
+fn{input(1,50)
+	if odd, say "odd"
+	if even, say "even"
+	ifelse, say "error"
+}
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+1 fn{input(1,4,7,9,12)
+2 	=sum(1+4+7+9+12)
+3	=prevsum/5
+4	=prevprev if a<=1, skip
+5		if a=1, say "minimum"
+6		if a>1, skip
+7		if a>1 and no higher, say "maximum"
+8	=ans ln 3, message "6.6"
+9	=ans ln 3,7, message "1=minimum, 12=maximum"
+
+-- END --
